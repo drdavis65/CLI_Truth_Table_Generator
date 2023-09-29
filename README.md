@@ -1,0 +1,1 @@
+# CLI_Truth_Table_Generator
