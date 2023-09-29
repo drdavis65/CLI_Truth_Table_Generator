@@ -4,12 +4,23 @@ A command-line program written in C that takes a boolean expression as input and
 
 ## Features
 
+- **Recursive Descent Parser**: The program utilizes a recursive descent parsing technique to process boolean expressions.
 - Supports the following boolean operators:
   - `*` for AND
   - `+` for OR
   - `=>` for IMPLICATION
   - `~` for NOT
 - Handles expressions with up to 26 unique variables (lowercase letters from `a` to `z`).
+
+### Backus-Naur Form (BNF) for the language:
+
+```
+<expression>  ::= <term> { "+" <term> }
+<term>        ::= <factor> { "*" <factor> }
+<factor>      ::= <base> | "~" <base>
+<base>        ::= <variable> | "(" <expression> ")" | <variable> "=>" <expression>
+<variable>    ::= "a" | "b" | ... | "z"
+```
 
 ## Getting Started
 
