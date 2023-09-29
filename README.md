@@ -17,7 +17,7 @@ A command-line program written in C that takes a boolean expression as input and
 
 - A C compiler (like `gcc`).
 
-Note: If you want to use a different compiler, you will have to change the makefile
+Note: If you want to use a different compiler, you will have to change the makefile.
 
 ### Compiling
 
