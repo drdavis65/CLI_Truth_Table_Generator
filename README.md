@@ -8,7 +8,7 @@ A command-line program written in C that takes a boolean expression as input and
   - `*` for AND
   - `+` for OR
   - `=>` for IMPLICATION
-  - `!` for NOT
+  - `~` for NOT
 - Handles expressions with up to 26 unique variables (lowercase letters from `a` to `z`).
 
 ## Getting Started
